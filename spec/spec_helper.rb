@@ -1,2 +1,2 @@
 require 'rack'
-require 'rack/force-status'
+require 'rack-force-status'
