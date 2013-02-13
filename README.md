@@ -1,6 +1,4 @@
-# Rack::ForceStatus
-
-[![Build Status](https://travis-ci.org/bigcartel/rack-force-status.png)](https://travis-ci.org/bigcartel/rack-force-status)
+# Rack::ForceStatus [![Build Status](https://travis-ci.org/bigcartel/rack-force-status.png)](https://travis-ci.org/bigcartel/rack-force-status)
 
 Rack::ForceStatus is a simple Rack middleware for forcing status codes on responses. This is useful for dealing with things like [XDomainRequest's inability to provide responseText on errors](http://stackoverflow.com/questions/10390539/xdomainrequest-get-response-body-on-error). We can now return the error with a 200 response that XDomainRequest can receive and handle.
 
